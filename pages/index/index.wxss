@@ -1,13 +1,13 @@
 /**index.wxss**/
 .userinfo {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
+  width: 86rpx;
+  height: 86rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
@@ -16,6 +16,33 @@
   color: #aaa;
 }
 
-.usermotto {
-  margin-top: 200px;
+.city {
+  text-align: center; 
+  font-size: 48rpx;
+}
+
+.weather {
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: space-around;
+  font-size: 36rpx;
+}
+
+.forecast {
+  text-align: center;
+  width: 200rpx;
+}
+
+.today {
+  display:flex;
+  justify-content: space-around;
+  margin-bottom: 140rpx;
+}
+
+.today_tmp {
+  font-size: 100rpx;
+}
+
+.today_txt {
+  font-size: 100rpx;
 }
