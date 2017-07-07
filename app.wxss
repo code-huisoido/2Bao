@@ -11,7 +11,7 @@ page {
   font-family: 微软雅黑;
   font-weight: 500;
 
-  background: -webkit-linear-gradient(top,  #15b6e4 0%,#42c3d3 20%,#56cbcb 44%,#5ccbc8 71%,#93ddab 73%,#74cca4 83%,#74cca4 100%); /* Chrome10+,Safari5.1+ */
+  background: -webkit-linear-gradient(top,  #15b6e4 0%,#42c3d3 20%,#56cbcb 44%,#5ccbc8 71%,#93ddab 73%,#86dda4 83%,#74cca4 100%); /* Chrome10+,Safari5.1+ */
   
   background-size: cover;
 } 
